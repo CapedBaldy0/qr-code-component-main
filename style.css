@@ -1,0 +1,38 @@
+body {
+    border-style: border-box;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  hsl(212, 45%, 89%);
+    height: 100vh;
+    margin: 0px;
+}
+
+h3 {
+    font-size: 1.3rem;
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+}
+
+.qr-card {
+    width: 280px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.qr-card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.qr-card .content {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
